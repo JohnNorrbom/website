@@ -22,6 +22,10 @@ body
 {
 	font-family: 'Baloo Chettan', cursive;	
 }
+p
+{
+	font-size: 100px;
+}
 .snus
 {
 	margin: 0px;
