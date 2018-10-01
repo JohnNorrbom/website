@@ -1,3 +1,9 @@
+body
+{
+	margin: 0px;
+	background-image: url('./snusy.jpg');
+}
+
 header
 {
 	font-family: 'Baloo Chettan', cursive;
@@ -7,21 +13,19 @@ header
 	background: #00467F;  /* fallback for old browsers */
 	background: -webkit-linear-gradient(to right, #A5CC82, #00467F);  /* Chrome 10-25, Safari 5.1-6 */
 	background: linear-gradient(to right, #A5CC82, #00467F); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-	border-radius: 10px;
 	box-shadow: 0px 0px 10px;
 }
+
 h1
 {
 	color: white;
 }
-html 
-{
-    overflow-y: scroll;
-}
+
 body
 {
 	font-family: 'Baloo Chettan', cursive;	
 }
+
 .snus
 {
 	margin: 0px;
@@ -29,6 +33,7 @@ body
 	padding-top: 50px;
 	padding-left: 50px;
 }
+
 .text
 {	
 	margin: 0px;
@@ -36,17 +41,19 @@ body
 	padding-right: 50px;
 	padding-left: 50px;
 }
+
 .row
 {
 	display: flex;
 	justify-content: center;
 }
+
 .rubrik
 {
 	margin: 0px;
 	font-size: 30px;
 }
-/*1113px*/ 
+
 @media screen and (max-width: 1113px)
 {
 	.row
